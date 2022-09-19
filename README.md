@@ -12,6 +12,8 @@
 ## Game Preview
 ![Capture](https://user-images.githubusercontent.com/107508295/177014072-96570803-a26a-4fc0-b71f-d68d8a4e2730.PNG)
 
+This project is basically about me learning about JavaScript, JQuery and DOM manipulation. i hope you also find it interesting
+
 
 Thanks! if you feel there's anything that can be done to improve the project kindly reach out to me below,
 to see the project or play the game [click me](https://simon-game-lilac.vercel.app/)
