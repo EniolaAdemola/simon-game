@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+</html>
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simon</title>
   <link rel="stylesheet" href="styles.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
@@ -10,41 +11,43 @@
 </head>
 
 <body>
-  <h1 id="level-title">How Good can you Memorise? Press A Key to Start</h1>
-  <div class="container">
-    <div lass="row">
 
-      <div type="button" id="green" class="btn green">
+    <!-- Game Title & Instructions -->
+    <h1 id="level-title">How Good can you Memorise? Press A Key to Start</h1>
 
+    <!-- Game boxes -->
+    <div class="container">
+      <div class="row">
+        <div type="button" id="green" class="btn green">
+        </div>
+        <div type="button" id="red" class="btn red">
+        </div>
       </div>
 
-      <div type="button" id="red" class="btn red">
-
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow">
+        </div>
+        <div type="button" id="blue" class="btn blue">
+        </div>
       </div>
+
     </div>
 
-    <div class="row">
-
-      <div type="button" id="yellow" class="btn yellow">
-
-      </div>
-      <div type="button" id="blue" class="btn blue">
-
-      </div>
-
-    </div>
-
-  </div>
-
+  <!-- Footer -->
   <footer>
   
     <h2 class="footer-title">Code by Eniola Ademola</h2>
-    <a href="https://web.facebook.com/eniola.ademola.1610/" class="social-icon" target="_blank"><i
-        class="social-icon fab fa-facebook-f"></i></a>
-    <a href="https://www.twitter.com/_daveworld" class="social-icon" target="_blank"><i
-        class="social-icon fab fa-twitter"></i></a>
-    <a href="https://www.instagram.com/_daveworld" class="social-icon" target="_blank"><i
-        class="social-icon fab fa-instagram"></i></a>
+    <div class="socials">   
+      <a href="https://web.facebook.com/eniola.ademola.1610/"    class="social-icon" target="_blank">
+        <i class="social-icon fab fa-facebook-f"></i>
+      </a>
+    <a href="https://www.twitter.com/_daveworld" class="social-icon" target="_blank">
+      <i class="social-icon fab fa-twitter"></i>
+    </a>
+    <a href="https://www.instagram.com/_daveworld" class="social-icon" target="_blank">
+      <i class="social-icon fab fa-instagram"></i>
+    </a>
+      </div>
   </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>

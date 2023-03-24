@@ -7,7 +7,8 @@ let userClickPattern = [];
 let started = false;
 let level = 0
 
-$(document).keypress(function(){
+// for Mobile 
+$(document).click(function(){
     if(!started){
         $("#level-title").text("level " + level);
         nextSequencs();
@@ -30,7 +31,7 @@ $(".btn").click(function(){
 function checkAnswer(currentLevel){
     
     if(gamePattern[currentLevel] === userClickPattern[currentLevel]){
-        console.log("success");
+        // console.log("success");
         if(userClickPattern.length === gamePattern.length){
             setTimeout(function(){
                 nextSequencs();
@@ -42,7 +43,7 @@ function checkAnswer(currentLevel){
         $("#level-title").text("Game Over, Press Any Key to Restart");
         setTimeout(function(){
             $("body").removeClass("game-over");
-        }, 200);
+        }, 500);
 
         $("#level-title").text("Game Over, Press Any Key to Restart");
 
